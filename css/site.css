@@ -1,17 +1,7 @@
-body {
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande",
-  "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3",
-  "WenQuanYi Micro Hei",sans-serif
-}
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif
-  }
-html, body {
-  height: 100%
-}
-body {
-  background: #f2f2f2
-}
+body {font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif}
+html, body {height: 100%}
+body {background: #f2f2f2}
 .header {
   background: #222;
   background-repeat: no-repeat;
@@ -202,6 +192,18 @@ body {
 }
 .post-featured-image .thumbnail.loaded img {
   opacity: 1;
+}
+.image-rotate{
+  animation: rotate 3s infinite linear;
+  -webkit-animation: rotate 3s infinite linear;;
+}
+@-webkit-keyframes rotate{
+  from {-webkit-transform: rotate(0);}
+  to {-webkit-transform: rotate(-360deg);}
+}
+@keyframes rotate{
+  from {-webkit-transform: rotate(0);}
+  to {-webkit-transform: rotate(-360deg);}
 }
 
 
