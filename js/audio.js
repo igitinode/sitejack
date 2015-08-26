@@ -6,5 +6,5 @@ $(document).ready(function(){
     // baseDir是必填初始化参数，指向刚才签出的MuPlayer静态资源目录
     baseDir: 'http://mu7.bdstatic.com/cms/app/muplayer/0_9_1/'
   });
-  player.add('http://music.baidu.com/cms/app/muplayer/test_mp3/1.mp3').play();
+  player.add('../media/earth.mp3').play();
 })
