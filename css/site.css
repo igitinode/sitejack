@@ -30,6 +30,23 @@ body {background: #f2f2f2}
   right: 1%;
   bottom: -34px;
 }
+.logoimg a {
+  position: relative;
+}
+.logoimg a span {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 22px;
+  bottom: -10px;
+  cursor: pointer;
+}
+.logoimg a .play {
+  background: url('../images/music.png') no-repeat -64px -43px;
+}
+.logoimg a .pause {
+  background: url('../images/music.png') no-repeat -23px -43px;
+}
 .logotxt {
   margin-bottom: 30px;
   border: 0;
@@ -199,11 +216,11 @@ body {background: #f2f2f2}
 }
 @-webkit-keyframes rotate{
   from {-webkit-transform: rotate(0);}
-  to {-webkit-transform: rotate(-360deg);}
+  to {-webkit-transform: rotate(360deg);}
 }
 @keyframes rotate{
   from {-webkit-transform: rotate(0);}
-  to {-webkit-transform: rotate(-360deg);}
+  to {-webkit-transform: rotate(360deg);}
 }
 
 
