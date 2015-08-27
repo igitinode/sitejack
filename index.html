@@ -15,9 +15,9 @@
   <body class="home-template">
     <div class="header" style="background-image: url(http://7xlcxw.com1.z0.glb.clouddn.com/head_bg.jpg)">
       <div class="logoimg" ng-controller="MusicCtrl">
-        <a title="致我们永恒的青春">
+        <a title="致我们永恒的青春" ng-click="play()">
           <img src="http://7xlcxw.com1.z0.glb.clouddn.com/head_rotate.png" alt="致我们永恒的青春" width="78px" ng-class="{'image-rotate': start}">
-          <span ng-class="{'play' : start, 'pause': !start}" ng-click="play()"></span>
+          <span ng-class="{'play' : start, 'pause': !start}"></span>
         </a>
       </div>
       <div class="container">
@@ -128,7 +128,8 @@
               <h4 class="title">我们用到的技术</h4>
               <div class="content tag-cloud">
                 <a href="http://www.bootcss.com/" title="Bootstrap中文网" target="_blank">Bootstrap</a>
-                <a href="http://cdn.code.baidu.com/" title="百度静态资源公共库" target="_blank">百度静态资源公共库</a>
+                <a href="http://cdn.code.baidu.com/" title="百度静态资源库" target="_blank">百度静态资源库</a>
+                <a href="http://www.qiniu.com/" title="七牛存储" target="_blank">七牛存储</a>
                 <a href="http://www.bootcdn.cn/" title="BootCDN" target="_blank">BootCDN</a>
                 <a href="http://www.gruntjs.net/" title="Grunt中文网" target="_blank">Grunt</a>
                 <a href="http://www.jquery123.com/" title="jQuery中文文档" target="_blank">jQuery</a>
