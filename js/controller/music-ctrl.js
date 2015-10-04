@@ -6,7 +6,7 @@ angular.module('siteJack')
 .controller('MusicCtrl', function ($scope) {
   $scope.start = true;
   var _audio = new Audio();
-  _audio.src = 'http://7xlcxw.com1.z0.glb.clouddn.com/home.mp3';
+  _audio.src = 'http://7xlcxw.com1.z0.glb.clouddn.com/TimeWillTell.mp3';
   _audio.onended = function () {
     $scope.start = !$scope.start;
     $scope.$apply();  // dirty data fresh
