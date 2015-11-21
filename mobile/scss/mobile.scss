@@ -1,0 +1,105 @@
+@import "compass/reset/utilities";
+@import "compass/css3";
+@import "compass/css3/transform";
+@import "compass/css3/animation";
+@import "base";
+@import "reset";
+
+header {
+  width: 100%;
+  height: size(340);
+  @include background-img($head-img);
+  padding-top: size(70);
+  background-position: top;
+  background-size: 142%;
+  color: $font-color;
+  text-align: center;
+  .head-title {
+    font-size: size(78);
+  }
+  .head-text {
+    margin-top: size(50);
+    font-size: size(45);
+  }
+}
+body {
+  background-color: $back-color;
+}
+.music {
+  width: size(80);
+  height: size(80);
+  margin: size(-45) auto 0;
+  position: relative;
+  .music-bg {
+    width: size(80);
+    height: size(80);
+    position: absolute;
+    @include background-img($music-bg);
+  }
+}
+.photo {
+  width: size(560);
+  padding: size(20);
+  margin: size(60) auto;
+  background-color: $font-color;
+  @include border-radius(size(10));
+  .img {
+    width: size(560);
+    height: size(420);
+  }
+  .img-name {
+    font-size: size(54);
+    font-weight: bold;
+    line-height: size(54);
+    margin: size(20) auto 0;
+    text-align: center;
+    color: $photo-title-color;
+  }
+  .p1 {
+    @include background-img($photo1);
+  }
+  .p2 {
+    @include background-img($photo2);
+  }
+  .p3 {
+    @include background-img($photo3);
+  }
+  .p4 {
+    @include background-img($photo4);
+  }
+  .p5 {
+    @include background-img($photo5);
+  }
+}
+.explain {
+  width: size(580);
+  font-size: size(28);
+  line-height: size(36);
+  margin: size(40) auto;
+  text-indent: 2em;
+  color: $foot-bg-color;
+}
+footer {
+  width: 100%;
+  height: size(120);
+  background-color: $foot-bg-color;
+  color: $font-color;
+  font-size: size(24);
+  line-height: size(120);
+  text-align: center;
+}
+a {
+  color: $font-color;
+  text-decoration: none;
+}
+.anim {
+  @include animation(rotate 3s linear 0s infinite);
+}
+@include keyframes(rotate) {
+  0% {
+    @include transform(rotateZ(0));
+  }
+  100% {
+    @include transform(rotateZ(-360deg));
+  }
+};
