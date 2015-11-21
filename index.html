@@ -11,6 +11,17 @@
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/site.css" rel="stylesheet">
     <link href="./css/ihover.css" rel="stylesheet">
+    <script type="text/javascript">
+        if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
+            if(window.location.href.indexOf("?mobile")<0){
+                try{
+                    if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+                        window.location.href = 'indexmobile.html';
+                    }else if(/iPad/i.test(navigator.userAgent)){}
+                }catch(e){}
+            }
+        }
+    </script>
   </head>
   <body class="home-template">
     <div class="header" style="background-image: url(http://7xlcxw.com1.z0.glb.clouddn.com/head_bg.jpg)">

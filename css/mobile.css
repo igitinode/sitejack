@@ -1,0 +1,191 @@
+/*- reset -*/
+html {
+  -webkit-text-size-adjust: none;
+  -webkit-appearance: none;
+}
+
+html, body, div, p, header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+  font-family: Helvetica,sans-serif;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 423px) and (min-width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+@media screen and (max-width: 413px) and (min-width: 384px) {
+  html {
+    font-size: 19.2px;
+  }
+}
+@media screen and (max-width: 383px) and (min-width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media screen and (max-width: 374px) and (min-width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 359px) and (min-width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+header {
+  width: 100%;
+  height: 10.625rem;
+  background-image: url("http://7xlcxw.com1.z0.glb.clouddn.com/head_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding-top: 2.1875rem;
+  background-position: top;
+  background-size: 142%;
+  color: #fff;
+  text-align: center;
+}
+header .head-title {
+  font-size: 2.4375rem;
+}
+header .head-text {
+  margin-top: 1.5625rem;
+  font-size: 1.40625rem;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.music {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: -1.40625rem auto 0;
+  position: relative;
+}
+.music .music-bg {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  background-image: url("http://7xlcxw.com1.z0.glb.clouddn.com/head_rotate.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.photo {
+  width: 17.5rem;
+  padding: 0.625rem;
+  margin: 1.875rem auto;
+  background-color: #fff;
+  -webkit-border-radius: 0.3125rem;
+  border-radius: 0.3125rem;
+}
+.photo .img {
+  width: 17.5rem;
+  height: 13.125rem;
+}
+.photo .img-name {
+  font-size: 1.6875rem;
+  font-weight: bold;
+  line-height: 1.6875rem;
+  margin: 0.625rem auto 0;
+  text-align: center;
+  color: #777;
+}
+.photo .p1 {
+  background-image: url("http://7xlcxw.com1.z0.glb.clouddn.com/content_3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo .p2 {
+  background-image: url("http://7xlcxw.com1.z0.glb.clouddn.com/content_4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo .p3 {
+  background-image: url("http://7xlcxw.com1.z0.glb.clouddn.com/content_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo .p4 {
+  background-image: url("http://7xlcxw.com1.z0.glb.clouddn.com/content_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo .p5 {
+  background-image: url("http://7xlcxw.com1.z0.glb.clouddn.com/content_5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.explain {
+  width: 18.125rem;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin: 1.25rem auto;
+  text-indent: 2em;
+  color: #000;
+}
+
+footer {
+  width: 100%;
+  height: 3.75rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 3.75rem;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.anim {
+  -webkit-animation: rotate 3s linear 0s infinite;
+  animation: rotate 3s linear 0s infinite;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+  }
+}

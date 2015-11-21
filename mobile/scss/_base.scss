@@ -1,0 +1,29 @@
+@mixin background-img($value) {
+    background-image: $value;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+@mixin omit-word($value) {
+    width: $value;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+@function percent($new, $old){
+    @return ($new / $old) * 100%;
+}
+@function size($n) {
+    @return ($n / 32) + rem;
+}
+$head-img: url('http://7xlcxw.com1.z0.glb.clouddn.com/head_bg.jpg');
+$music-bg: url('http://7xlcxw.com1.z0.glb.clouddn.com/head_rotate.png');
+$photo1: url('http://7xlcxw.com1.z0.glb.clouddn.com/content_3.jpg');
+$photo2: url('http://7xlcxw.com1.z0.glb.clouddn.com/content_4.jpg');
+$photo3: url('http://7xlcxw.com1.z0.glb.clouddn.com/content_1.jpg');
+$photo4: url('http://7xlcxw.com1.z0.glb.clouddn.com/content_2.jpg');
+$photo5: url('http://7xlcxw.com1.z0.glb.clouddn.com/content_5.jpg');
+$font-color: #fff;
+$photo-title-color: #777;
+$foot-bg-color: #000;
+$back-color: #f2f2f2;

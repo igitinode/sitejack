@@ -1,0 +1,17 @@
+{
+  "name": "sitejack",
+  "from": "mobile",
+  "version": "0.1.0",
+  "author": "jonnyf",
+  "devDependencies": {
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-haml": "^0.1.6",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^1.5.1"
+  }
+}
